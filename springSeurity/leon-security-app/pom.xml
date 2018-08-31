@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>leon-security</artifactId>
+        <groupId>com.leon.security</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../leon-security/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>leon-security-app</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <description>Spring Security技术栈开发企业级认证与授权移动端项目</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.leon.security</groupId>
+            <artifactId>leon-security-core</artifactId>
+            <version>${leon.security.version}</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/security?user=root&password=900415&characterEncoding=utf-8&useSSL=false
+    # 配置Druid连接池
+    type: com.alibaba.druid.pool.DruidDataSource
+  session:
+    store-type: none
+server:
+    port: 8080
+security:
+  basic:
+    enabled: false
